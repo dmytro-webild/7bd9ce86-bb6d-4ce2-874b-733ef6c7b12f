@@ -7,7 +7,7 @@ import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwent
 import MetricCardTwo from "@/components/sections/metrics/MetricCardTwo";
 import FaqBase from "@/components/sections/faq/FaqBase";
 import FooterBaseReveal from "@/components/sections/footer/FooterBaseReveal";
-import { Zap, HelpCircle, Globe } from "lucide-react";
+import { Zap, HelpCircle, Globe, Play, Eye, Trophy } from "lucide-react";
 
 export default function TournamentsPage() {
   const navItems = [
@@ -60,7 +60,7 @@ export default function TournamentsPage() {
   return (
     <ThemeProvider
       defaultButtonVariant="hover-bubble"
-      defaultTextAnimation="reveal-blur"
+      defaultTextAnimation="entrance-slide"
       borderRadius="pill"
       contentWidth="mediumSmall"
       sizing="mediumLargeSizeLargeTitles"
@@ -90,25 +90,25 @@ export default function TournamentsPage() {
             {
               title: "PUBG Mobile Pro Series",
               description: "International championship featuring top professional teams competing for $500,000 prize pool.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=8",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Play",
+              buttonIcon: Play,
               buttonHref: "/tournaments/pubg-pro-series",
             },
             {
               title: "Roblox Creator Clash",
               description: "Virtual world creators battle in custom-built game arenas with live streaming to millions.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=9",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Eye",
+              buttonIcon: Eye,
               buttonHref: "/tournaments/roblox-creator-clash",
             },
             {
               title: "Brawl Stars Global Championship",
               description: "Fastest-paced esports tournament with teams from 60+ countries in real-time multiplayer action.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=10",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Trophy",
+              buttonIcon: Trophy,
               buttonHref: "/tournaments/brawlstars-global",
             },
           ]}
@@ -151,7 +151,7 @@ export default function TournamentsPage() {
               description: "Countries Represented",
             },
           ]}
-          gridVariant="four-items-2x2-equal-grid"
+          gridVariant="uniform-all-items-equal"
           animationType="scale-rotate"
           textboxLayout="default"
           useInvertedBackground={false}
