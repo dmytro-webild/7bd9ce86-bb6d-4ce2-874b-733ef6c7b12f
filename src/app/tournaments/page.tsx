@@ -85,7 +85,7 @@ export default function TournamentsPage() {
           description="Stay updated with real-time tournament information, match schedules, and live broadcast links."
           tag="Active Events"
           tagIcon={Zap}
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
           features={[
             {
               title: "PUBG Mobile Pro Series",

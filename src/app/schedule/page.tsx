@@ -149,7 +149,7 @@ export default function SchedulePage() {
           description="Check out the most exciting matches happening this week with complete broadcast schedules and team rosters."
           tag="Featured Matches"
           tagIcon={Zap}
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
           features={[
             {
               title: "PUBG Regional Playoffs",
