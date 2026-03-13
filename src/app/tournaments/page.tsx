@@ -90,7 +90,7 @@ export default function TournamentsPage() {
             {
               title: "PUBG Mobile Pro Series",
               description: "International championship featuring top professional teams competing for $500,000 prize pool.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=15",
               imageAlt: "gaming tournament live broadcast stream",
               buttonIcon: Play,
               buttonHref: "/tournaments/pubg-pro-series",
@@ -98,7 +98,7 @@ export default function TournamentsPage() {
             {
               title: "Roblox Creator Clash",
               description: "Virtual world creators battle in custom-built game arenas with live streaming to millions.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=16",
               imageAlt: "gaming tournament live broadcast stream",
               buttonIcon: Eye,
               buttonHref: "/tournaments/roblox-creator-clash",
@@ -106,7 +106,7 @@ export default function TournamentsPage() {
             {
               title: "Brawl Stars Global Championship",
               description: "Fastest-paced esports tournament with teams from 60+ countries in real-time multiplayer action.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=17",
               imageAlt: "gaming tournament live broadcast stream",
               buttonIcon: Trophy,
               buttonHref: "/tournaments/brawlstars-global",
