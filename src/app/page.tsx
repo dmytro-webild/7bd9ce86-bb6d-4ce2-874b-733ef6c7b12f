@@ -63,7 +63,7 @@ export default function HomePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="hover-bubble"
-      defaultTextAnimation="reveal-blur"
+      defaultTextAnimation="entrance-slide"
       borderRadius="pill"
       contentWidth="mediumSmall"
       sizing="mediumLargeSizeLargeTitles"
@@ -93,7 +93,7 @@ export default function HomePage() {
           ]}
           buttonAnimation="slide-up"
           layoutOrder="default"
-          imageSrc="http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg"
           imageAlt="esports gaming tournament broadcast setup"
           mediaAnimation="blur-reveal"
           frameStyle="card"
@@ -113,21 +113,21 @@ export default function HomePage() {
               id: "pubg-mobile",
               name: "PUBG Mobile",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg",
               imageAlt: "PUBG Mobile battle royale gameplay",
             },
             {
               id: "roblox",
               name: "Roblox",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg",
               imageAlt: "Roblox gaming platform virtual world",
             },
             {
               id: "brawlstars",
               name: "Brawl Stars",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-psd/american-football-championship-template_23-2151933189.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-psd/american-football-championship-template_23-2151933189.jpg",
               imageAlt: "Brawl Stars mobile game action gameplay",
             },
           ]}
@@ -150,7 +150,7 @@ export default function HomePage() {
             {
               title: "PUBG Mobile Pro Series",
               description: "International championship featuring top professional teams competing for $500,000 prize pool.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=1",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "PUBG Tournament Live",
               buttonIcon: Play,
               buttonHref: "/tournaments/pubg-pro-series",
@@ -158,7 +158,7 @@ export default function HomePage() {
             {
               title: "Roblox Creator Clash",
               description: "Virtual world creators battle in custom-built game arenas with live streaming to millions.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "Roblox Tournament",
               buttonIcon: Eye,
               buttonHref: "/tournaments/roblox-creator-clash",
@@ -166,7 +166,7 @@ export default function HomePage() {
             {
               title: "Brawl Stars Global Championship",
               description: "Fastest-paced esports tournament with teams from 60+ countries in real-time multiplayer action.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=3",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "Brawl Stars Championship",
               buttonIcon: Trophy,
               buttonHref: "/tournaments/brawlstars-global",
@@ -190,7 +190,7 @@ export default function HomePage() {
             { id: "broadcast", value: "$50M", description: "Total Prize Pools" },
             { id: "countries", value: "150+", description: "Countries Represented" },
           ]}
-          gridVariant="four-items-2x2-equal-grid"
+          gridVariant="uniform-all-items-equal"
           animationType="scale-rotate"
           textboxLayout="default"
           useInvertedBackground={false}
@@ -212,7 +212,7 @@ export default function HomePage() {
               category: "PUBG Mobile",
               title: "PUBG Pro Series Finals",
               excerpt: "Top 16 teams compete for championship title and $200,000 grand prize. Watch live on all major platforms.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=4",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "PUBG Pro Series Finals",
               authorName: "Tournament Admin",
               authorAvatar: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
@@ -223,7 +223,7 @@ export default function HomePage() {
               category: "Roblox",
               title: "Creator Clash Spring Season",
               excerpt: "100 content creators showcase their game design skills in real-time competitive battles.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=5",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "Roblox Creator Clash",
               authorName: "Gaming Events",
               authorAvatar: "http://img.b2bpic.net/free-photo/medium-shot-smiley-people-playing-videogame_23-2149349994.jpg",
@@ -234,7 +234,7 @@ export default function HomePage() {
               category: "Brawl Stars",
               title: "Global Championship Qualifiers",
               excerpt: "Regional playoffs begin. Teams compete for slots in the international championship tournament.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=6",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "Brawl Stars Qualifiers",
               authorName: "Brawl Esports",
               authorAvatar: "http://img.b2bpic.net/free-photo/medium-shot-smiley-people-playing-videogame_23-2149349994.jpg",
@@ -245,7 +245,7 @@ export default function HomePage() {
               category: "Multi-Game",
               title: "Holiday Gaming Festival",
               excerpt: "Multi-game tournament featuring PUBG Mobile, Roblox, and Brawl Stars with combined $1M prize pool.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=7",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "Holiday Gaming Festival",
               authorName: "GameHub Events",
               authorAvatar: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
@@ -271,7 +271,7 @@ export default function HomePage() {
               category: "Registration",
               title: "How do I register for a tournament?",
               excerpt: "Visit the tournament page you're interested in and click 'Register Team.' Fill out your team details, verify email, and you're ready to compete.",
-              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg?_wi=2",
+              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
               imageAlt: "Tournament Registration",
               authorName: "Support Team",
               authorAvatar: "http://img.b2bpic.net/free-photo/medium-shot-smiley-people-playing-videogame_23-2149349994.jpg",
@@ -282,7 +282,7 @@ export default function HomePage() {
               category: "System Requirements",
               title: "What are the minimum system requirements?",
               excerpt: "For mobile: iOS 12+ or Android 8+. For PC: Windows 10/11 with at least 4GB RAM. Internet speed should be minimum 5 Mbps for smooth gameplay.",
-              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg?_wi=3",
+              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
               imageAlt: "System Requirements",
               authorName: "Technical Support",
               authorAvatar: "http://img.b2bpic.net/free-photo/medium-shot-smiley-people-playing-videogame_23-2149349994.jpg",
