@@ -90,7 +90,7 @@ export default function GamesPage() {
           ]}
           buttonAnimation="slide-up"
           layoutOrder="reverse"
-          imageSrc="http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg?_wi=2"
           imageAlt="Popular Gaming Titles"
           mediaAnimation="blur-reveal"
           frameStyle="card"
@@ -107,35 +107,35 @@ export default function GamesPage() {
               id: "pubg-mobile",
               name: "PUBG Mobile",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg?_wi=2",
               imageAlt: "PUBG Mobile battle royale gameplay",
             },
             {
               id: "roblox",
               name: "Roblox",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg?_wi=3",
               imageAlt: "Roblox gaming platform virtual world",
             },
             {
               id: "brawlstars",
               name: "Brawl Stars",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-psd/american-football-championship-template_23-2151933189.jpg",
+              imageSrc: "http://img.b2bpic.net/free-psd/american-football-championship-template_23-2151933189.jpg?_wi=2",
               imageAlt: "Brawl Stars mobile game action gameplay",
             },
             {
               id: "codmobile",
               name: "Call of Duty Mobile",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/soldier-with-gun-his-hand-blue-background_1268-28589.jpg?_wi=3",
               imageAlt: "Call of Duty Mobile competitive gameplay",
             },
             {
               id: "freefire",
               name: "Free Fire",
               price: "Free to Play",
-              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg?_wi=4",
               imageAlt: "Free Fire battle royale action",
             },
             {
