@@ -7,7 +7,7 @@ import BlogCardOne from "@/components/sections/blog/BlogCardOne";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBaseReveal from "@/components/sections/footer/FooterBaseReveal";
-import { Calendar, Zap, Users } from "lucide-react";
+import { Calendar, Zap, Users, Play, Eye, Trophy } from "lucide-react";
 
 export default function SchedulePage() {
   const navItems = [
@@ -60,7 +60,7 @@ export default function SchedulePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="hover-bubble"
-      defaultTextAnimation="reveal-blur"
+      defaultTextAnimation="entrance-slide"
       borderRadius="pill"
       contentWidth="mediumSmall"
       sizing="mediumLargeSizeLargeTitles"
@@ -94,7 +94,7 @@ export default function SchedulePage() {
               category: "PUBG Mobile",
               title: "PUBG Pro Series Finals",
               excerpt: "Top 16 teams compete for championship title and $200,000 grand prize. Watch live on all major platforms.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=11",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
               authorName: "Tournament Admin",
               authorAvatar: "http://img.b2bpic.net/free-photo/team-teenage-gamers-plays-multiplayer-video-game-pc-gaming-club_613910-19148.jpg",
@@ -105,7 +105,7 @@ export default function SchedulePage() {
               category: "Roblox",
               title: "Creator Clash Spring Season",
               excerpt: "100 content creators showcase their game design skills in real-time competitive battles.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=12",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
               authorName: "Gaming Events",
               authorAvatar: "http://img.b2bpic.net/free-photo/nervous-woman-screaming-husband-while-he-is-playing-space-shooter-videogame-rgb-powerful-computer-streaming-online-competition-pro-cyber-with-headset-performing-virtual-tournament_482257-12460.jpg",
@@ -116,7 +116,7 @@ export default function SchedulePage() {
               category: "Brawl Stars",
               title: "Global Championship Qualifiers",
               excerpt: "Regional playoffs begin. Teams compete for slots in the international championship tournament.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=13",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
               authorName: "Brawl Esports",
               authorAvatar: "http://img.b2bpic.net/free-psd/american-football-championship-template_23-2151933189.jpg",
@@ -127,7 +127,7 @@ export default function SchedulePage() {
               category: "Multi-Game",
               title: "Holiday Gaming Festival",
               excerpt: "Multi-game tournament featuring PUBG Mobile, Roblox, and Brawl Stars with combined $1M prize pool.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=14",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
               authorName: "GameHub Events",
               authorAvatar: "http://img.b2bpic.net/free-photo/medium-shot-smiley-people-playing-videogame_23-2149349994.jpg",
@@ -154,25 +154,25 @@ export default function SchedulePage() {
             {
               title: "PUBG Regional Playoffs",
               description: "32 teams from 4 regions competing for a combined $100,000 prize pool. Stream live on Twitch and YouTube.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=15",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Play",
+              buttonIcon: Play,
               buttonHref: "/tournaments/pubg-playoffs",
             },
             {
               title: "Roblox Developer Showdown",
               description: "Creative developers battle with custom game environments. First 8-hour tournament with live world-building.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=16",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Eye",
+              buttonIcon: Eye,
               buttonHref: "/tournaments/roblox-showdown",
             },
             {
               title: "Brawl Stars Regional Series",
               description: "3v3 competitive matches with 150 teams across Asia-Pacific region. Watch the fastest esport action.",
-              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg?_wi=17",
+              imageSrc: "http://img.b2bpic.net/free-photo/e-sport-streamer-being-upset-losing-space-shoot-video-game-championship-playing-computer_482257-2102.jpg",
               imageAlt: "gaming tournament live broadcast stream",
-              buttonIcon: "Trophy",
+              buttonIcon: Trophy,
               buttonHref: "/tournaments/brawlstars-regional",
             },
           ]}
